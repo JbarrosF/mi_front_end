@@ -1,0 +1,27 @@
+header{
+    div{
+        padding-block: inherit;
+        align-self: center;
+        text-align: center;
+
+    }
+    h1{
+        color: rgb(125, 75, 5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size:300%
+    }
+    h2{
+        color: blanchedalmond;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+}
+
+body{
+    h2{
+        color: brown;
+    }
+    background-color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
