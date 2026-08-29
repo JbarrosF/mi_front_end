@@ -19,6 +19,17 @@ header{
 }
 
 body{
+    main{
+        padding-block: 1rem;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    section{
+        padding-block: 1rem;
+        text-align: center;
+        border: 1px solid brown;
+    }
     h2{
         color: brown;
     }
