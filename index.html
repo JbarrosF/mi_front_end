@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="style.css">
 
     <title>One Piece - La Gran Ruta</title>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+    
 </head>
 
 <body>
 
     <header>
-        <DIV>
+        <DIV class = "container">
 
-            <h1>EL TESORO DEL ONEPIECE</h1>
-            <h2>
+            <h1 class="text-center mt-5">EL TESORO DEL ONEPIECE</h1>
+            <h2class="text-center">
                 <em>¡¡Bienvenido a la Gran Ruta Pirata!!</em> 
             </h2>
         </DIV>
@@ -28,10 +33,10 @@
         <!-- HISTORIA -->
 
         <section>
-            <style>{background-color: antiquewhite;}</style>
-                <h2>Historia del One Piece</h2>
+            <div class = "container">
+                <h2 class = "text-center">Historia del One Piece</h2>
                 <img
-                src="../../onepiece_logo.png" width="600"
+                    src="https://jbarrosf.github.io/mi_front_end/image/onepiece_logo.png" width="600"
                     alt="Logo One Piece">
                 
                 <p>
@@ -39,6 +44,7 @@
                     el antiguo Rey de los Piratas. Su descubrimiento dio inicio
                     a la Gran Era Pirata.
                 </p>
+            </div>
             
 
         </section><br>
@@ -48,30 +54,36 @@
         <!-- ISLAS -->
 
         <section>
-
-            <h2>🏝️ Lugares de la Grand Line</h2>
-
-            <p>
-                Durante su aventura, los piratas deben recorrer diferentes
-                islas y territorios.
-            </p>
-
-            <ul>
-
-                <li>Water 7</li>
-
-                <li>Marineford</li>
-
-                <li>Wano</li>
-
-                <li>Egghead</li>
-
-            </ul>
-
-            <img
-                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" width="400"
-                alt="Paisaje">
-
+            
+            <div class = "container">
+                <h2 class = "text-center">Lugares de la Grand Line</h2>
+    
+                <p>
+                    Durante su aventura, los piratas deben recorrer diferentes
+                    islas y territorios.
+                </p>
+                <div class ="row">
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://static.wikia.nocookie.net/onepiece/images/2/2d/Water_7.png/revision/latest?cb=20130301231635&path-prefix=es"
+                            class="card-img-top"
+                            alt="Water 7">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                Water 7
+                                </h5>
+                                <p class="card-text">
+                                    es una ciudad ubicada en Paradise, conocida por sus carpinteros/Astilleros. Sus calles son formadas por canales, lo que le han atribuido el título de la Capital del Agua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> MarineFord </div>
+                    <div class="col-md-3"> Wano </div>
+                    <div class="col-md-3"> Egghead </div>
+                </div>
+    
+            </div>
         </section>
         <br>
 
@@ -184,4 +196,3 @@
 </body>
 
 </html>
-
