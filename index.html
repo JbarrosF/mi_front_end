@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://static.wikia.nocookie.net/onepiece/images/4/4a/Site-favicon.ico/revision/latest?cb=20240604153446&amp;path-prefix=es">
 
     <title>One Piece - La Gran Ruta</title>
 
@@ -15,6 +16,30 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            One Piece
+            </a>
+            <div class="navbar-nav">
+            <a class="nav-link" href="#historia">
+            Historia
+            </a>
+            <a class="nav-link" href="#islas">
+            Islas
+            </a>
+            <a class="nav-link" href="#tripulacion">
+            Tripulación
+            </a>
+            <a class="nav-link" href="#frutas">
+            Frutas
+            </a>
+            <a class="nav-link" href="#">
+            Contacto
+            </a>
+            </div>
+        </div>
+    </nav>
 
     <header>
         <DIV class = "container">
@@ -32,18 +57,21 @@
 
         <!-- HISTORIA -->
 
-        <section>
+        <section ID="historia">
             <div class = "container">
                 <h2 class = "text-center">Historia del One Piece</h2>
+                <br>
                 <img
                     src="https://jbarrosf.github.io/mi_front_end/image/onepiece_logo.png" width="600"
                     alt="Logo One Piece">
                 
                 <p>
-                    El One Piece es el legendario tesoro dejado por Gol D. Roger,
-                    el antiguo Rey de los Piratas. Su descubrimiento dio inicio
-                    a la Gran Era Pirata.
+                    El One Piece es el legendario tesoro de un valor incalculable que resulta ser la suma del objeto que alguien dejó, hace siglos, y los tesoros del "Rey de los piratas" Gol D. Roger. Antes de su ejecución, Roger dijo al mundo que el gran tesoro podría ser reclamado por quien consiguiese llegar hasta a allí, dando comienzo así a la «Gran era de los piratas».
                 </p>
+                <p>
+                    Fue escondido en la isla más profunda de Grand Line (la última isla). Posteriormente, llamada Laugh Tale por el mismo Roger. Al menos, una parte de él fue dejado por Joy Boy, bajo circunstancias y fines desconocidos allí, durante el Siglo Vacío.
+                </p>
+                <br>
             </div>
             
 
@@ -53,15 +81,16 @@
 
         <!-- ISLAS -->
 
-        <section>
+        <section ID="islas">
             
             <div class = "container">
                 <h2 class = "text-center">Lugares de la Grand Line</h2>
-    
+                <br>
                 <p>
                     Durante su aventura, los piratas deben recorrer diferentes
                     islas y territorios.
                 </p>
+                <br>
                 <div class ="row">
                     <div class="col-md-3"> 
                         <div class="card">
@@ -70,17 +99,59 @@
                             alt="Water 7">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                Water 7
+                                <strong>WATER 7</strong>
                                 </h5>
                                 <p class="card-text">
-                                    es una ciudad ubicada en Paradise, conocida por sus carpinteros/Astilleros. Sus calles son formadas por canales, lo que le han atribuido el título de la Capital del Agua.
+                                    Es una ciudad ubicada en Paradise, conocida por sus carpinteros/Astilleros. Sus calles son formadas por canales, lo que le han atribuido el título de la Capital del Agua.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3"> MarineFord </div>
-                    <div class="col-md-3"> Wano </div>
-                    <div class="col-md-3"> Egghead </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://static.wikia.nocookie.net/onepiece/images/e/e7/Marineford.png/revision/latest?cb=20170402150931&path-prefix=es"
+                            class="card-img-top"
+                            alt="MarineFord">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                <strong>MARINEFORD</strong>
+                                </h5>
+                                <p class="card-text">
+                                    Es la isla en donde se encontraba el Cuartel General de la Marina, antes de la Guerra de Marineford, tras la cual la Sede Mundial de la Marina pasó a estar en el Nuevo Mundo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://static.wikia.nocookie.net/onepiece/images/6/66/Pa%C3%ADs_de_Wano_en_el_pasado.png/revision/latest?cb=20220816184246&path-prefix=es"
+                            class="card-img-top"
+                            alt="Wano">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                <strong>WANO</strong>
+                                </h5>
+                                <p class="card-text">
+                                    Es un país situado en el Nuevo Mundo, no-afiliado al Gobierno Mundial.[1] Es gobernado por la familia Kozuki, ejerciendo su patriarca Kozuki Momonosuke como el shogun del país.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://static.wikia.nocookie.net/onepiece/images/7/72/Egghead_Incident_Infobox.png/revision/latest?cb=20250518155141"
+                            class="card-img-top"
+                            alt="Egghead">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                <strong>EGGHEAD</strong>
+                                </h5>
+                                <p class="card-text">
+                                    Es una isla del Nuevo Mundo perteneciente al Gobierno Mundial, lugar en el que se encuentra el laboratorio de Vegapunk. Se dice que tecnológicamente está quinientos años adelantada a la actualidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
     
             </div>
@@ -90,68 +161,242 @@
 
         <!-- TRIPULACIÓN -->
 
-        <section>
+        <section ID="tripulacion">
+            <div class = "container">
 
-            <h2>👒 Tripulación de los Sombrero de Paja</h2>
-
-            <p>
-                La tripulación de Luffy está formada por diferentes
-                personajes que poseen habilidades únicas.
-            </p>
-
-            <ol>
-
-                <li>Monkey D. Luffy - Capitán</li>
-
-                <li>Roronoa Zoro - Espadachín</li>
-
-                <li>Nami - Navegante</li>
-
-                <li>Usopp - Francotirador</li>
-
-                <li>Sanji - Cocinero</li>
-
-            </ol>
-
-            <img
-                src="https://images.unsplash.com/photo-1544551763-46a013bb70d5" width="400"
-                alt="Barco">
-
+                <h2>Tripulación de los Sombrero de Paja</h2>
+                <br>
+                <p>
+                    Los Piratas de Sombrero de Paja, principalmente conocidos como la <strong>tripulación de los Sombrero de Paja</strong>, es una banda de piratas originaria del East Blue, pero tiene miembros de diferentes partes del mundo. Ellos son el foco y los principales protagonistas de la trama del manga y franquicia de One Piece, siendo capitaneados por el protagonista principal de la serie, <strong>Monkey D. Luffy</strong>.
+                </p>
+                <p>
+                    Se les conoce como los de <em>"Sombrero de Paja"</em>, por el característico sombrero de su capitán, el cual le fue cedido por Shanks el Pelirrojo, y fueron conocidos como <em>"Piratas de Sombrero de Paja"</em> gracias al Vicealmirante de la Marina <strong>Smoker</strong> en Arabasta.
+                </p>
+                <br>
+                <div class ="row">
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://i.pinimg.com/1200x/16/e4/c0/16e4c070eabd5bbce1baa68d06efaf75.jpg"
+                            class="card-img-top"
+                            alt="Monkey D. Luffy">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <strong>MONKEY D. LUFFY</strong>
+                                </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Cargo: Capitán</li>
+                                        <li>Origen: East Blue</li>
+                                        <li>Habilidad: Fruta del Diablo (Gomu Gomu no Mi)</li>
+                                        <li>Haki: Armadura, Observación y Rey</li>
+                                    </ul>
+                                </p>
+                                <a href="#"
+                                class="btn btn-primary">
+                                Ver personaje
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://i.pinimg.com/1200x/4b/76/5c/4b765c259f8cde22cff78c0f4771ad20.jpg"
+                            class="card-img-top"
+                            alt="Roronoa Zoro">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <strong>RORONOA ZORO</strong>
+                                </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Cargo: Espadachín</li>
+                                        <li>Origen: East Blue</li>
+                                        <li>Habilidad: Espadas (Santoryu)</li>
+                                        <li>Haki: Armadura y Observación</li>
+                                    </ul>
+                                </p>
+                                <a href="#"
+                                class="btn btn-primary">
+                                Ver personaje
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://i.pinimg.com/1200x/41/1e/db/411edbfc18652a25e56271b3c0120e46.jpg"
+                            class="card-img-top"
+                            alt="Nami">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <strong>NAMI</strong>
+                                </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Cargo: Navegante</li>
+                                        <li>Origen: East Blue</li>
+                                        <li>Habilidad: Clima-Tact Y ZEUS</li>
+                                        <li>Haki: Observación</li>
+                                    </ul>
+                                </p>
+                                <a href="#"
+                                    class="btn btn-primary">
+                                    Ver personaje
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://i.pinimg.com/1200x/12/c2/ee/12c2ee6684a8e981cad98c3092374a24.jpg"
+                            class="card-img-top"
+                            alt="Usopp">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <strong>USOPP</strong>
+                                </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Cargo: Francotirador</li>
+                                        <li>Origen: East Blue</li>
+                                        <li>Habilidad: Tirachinas y armas de largo alcance</li>
+                                        <li>Haki: Observación</li>
+                                    </ul>
+                                </p>
+                                <a href="#"
+                                class="btn btn-primary">
+                                    Ver personaje
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://i.pinimg.com/1200x/8f/be/f3/8fbef3107fbbf5886485ee34884e8ed3.jpg"
+                            class="card-img-top"
+                            alt="Sanji">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <strong>SANJI</strong>
+                                </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Cargo: Cocinero</li>
+                                        <li>Origen: East Blue</li>
+                                        <li>Habilidad: Patadas y técnicas de combate cuerpo a cuerpo</li>
+                                        <li>Haki: Armadura y Observación</li>
+                                    </ul>
+                                </p>
+                                <a href="#"
+                                class="btn btn-primary">
+                                    Ver personaje
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://i.pinimg.com/1200x/bf/2c/f9/bf2cf9baae7404230505757df738d826.jpg"
+                            class="card-img-top"
+                            alt="Tony Tony Chopper">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <strong>TONY TONY CHOPPER</strong>
+                                </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Cargo: Médico</li>
+                                        <li>Origen: Drum Island</li>
+                                        <li>Habilidad: Fruta del Diablo (Hito Hito no Mi)</li>
+                                        <li>Haki: Ninguno</li>
+                                    </ul>
+                                </p>
+                                <a href="#"
+                                class="btn btn-primary">
+                                    Ver personaje
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://i.pinimg.com/1200x/f1/e3/31/f1e331b3f0d46e7dff4ae30e211d8ae5.jpg"
+                            class="card-img-top"
+                            alt="Nico Robin">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <strong>NICO ROBIN</strong>
+                                </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Cargo: Arqueóloga</li>
+                                        <li>Origen: Ohara</li>
+                                        <li>Habilidad: Fruta del Diablo (Hana Hana no Mi)</li>
+                                        <li>Haki: Armadura y Observación</li>
+                                    </ul>
+                                </p>
+                                <a href="#"
+                                class="btn btn-primary">
+                                    Ver personaje
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"> 
+                        <div class="card">
+                            <img src="https://i.pinimg.com/736x/65/e3/53/65e35378958b5c1a3e77cc225fea38e9.jpg"
+                            class="card-img-top"
+                            alt="Franky">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <strong>FRANKY</strong>
+                                </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Cargo: Carpintero</li>
+                                        <li>Origen: Water 7</li>
+                                        <li>Habilidad: Cuerpo cibernético y armas de fuego</li>
+                                        <li>Haki: Armadura</li>
+                                    </ul>
+                                </p>
+                                <a href="#"
+                                class="btn btn-primary">
+                                    Ver personaje
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <br>
 
         <!-- FRUTAS DEL DIABLO -->
 
         <section>
+            <div class = "container">
 
-            <h2>🍎 Frutas del Diablo</h2>
+                <h2>Frutas del Diablo</h2>
+                <br>
+                <p>
+                    Las frutas del diablo (Akuma no mi?) son unas frutas misteriosas y peculiares repartidas por el mundo, conocidas por otorgar a sus consumidores poderes sobrehumanos, así como una gran debilidad al agua marina, arrebatando la capacidad de nadar a sus usuarios. Por lo general, un individuo sólo puede adquirir los poderes de una sola fruta del diablo y sobrevivir.
+                </p>
+                <p>
+                    Cada fruta del diablo otorga un poder especial a quien la come: desde los poderes más simples, como estirarse como la goma, hasta poderes capaces de causar destrucción a gran escala, como la creación de terremotos. Cada fruta del diablo es única y no hay otra igual. Estas frutas se agrupan en tres clases: zoan, logia y paramecia.
+                </p>
+                <br>
+                <img src="https://i.pinimg.com/1200x/e3/83/b3/e383b36ccdeba1023a7e4edec4f97d52.jpg"
+                alt="Frutas del Diablo" >
+            </div>
+        </section>      
 
-            <p>
-                Las Frutas del Diablo entregan poderes especiales
-                a quienes las consumen, aunque pierden la capacidad
-                de nadar.
-            </p>
-
-            <ul>
-
-                <li>Gomu Gomu no Mi</li>
-
-                <li>Ope Ope no Mi</li>
-
-                <li>Mera Mera no Mi</li>
-
-                <li>Hito Hito no Mi</li>
-
-            </ul>
-
-        </section>
+    </main>
 
 
-        <!-- REFERENCIAS -->
-
+    <footer>
         <section>
 
-            <h2>🔗 Referencias</h2>
+            <h2>Referencias</h2>
 
             <p>
                 Sitios donde puedes encontrar información relacionada
@@ -181,11 +426,6 @@
             </ul>
 
         </section>
-
-    </main>
-
-
-    <footer>
 
         <p>
             🏴‍☠️ One Piece - La Gran Ruta | 2026

@@ -19,6 +19,13 @@ header{
 }
 
 body{
+    nav{
+        
+        background-color:rgb(92, 48, 4);
+        border-radius: 10 px;
+        text-color: blanchedalmond;
+    }
+
     main{
         padding-block: 1rem;
         text-align: center;
@@ -26,9 +33,15 @@ body{
     }
 
     section{
-        padding-block: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 2rem;
         text-align: center;
-        border: 1px solid brown;
+        border:rgb(92, 48, 4) solid 2 px;
+        background-color: rgb(255, 255, 255, 0.5);
+        border-radius: 10 px;
+        
+    
     }
     h2{
         color: rgb(92, 48, 4);
