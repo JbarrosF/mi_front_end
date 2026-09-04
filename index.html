@@ -16,6 +16,18 @@
 </head>
 
 <body>
+    <script>
+        const nombrePersonaje = "Monkey D. Luffy";
+        let tripulacion = "Sombrero de Paja";
+        let edadPersonaje = 19;
+        const nombreSerie = "One Piece";
+        alert(tripulacion);
+        alert (edadPersonaje);
+        console.log(nombrePersonaje);
+        console.log(nombreSerie);
+
+    </script>
+
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -62,7 +74,7 @@
                 <h2 class = "text-center">Historia del One Piece</h2>
                 <br>
                 <img
-                    src="https://jbarrosf.github.io/mi_front_end/image/onepiece_logo.png" class = "img-fluid"
+                    src="https://jbarrosf.github.io/mi_front_end/image/onepiece_logo.png" class = "img-fluid" max-width="70%"
                     alt="Logo One Piece">
                 
                 <p>
@@ -371,6 +383,22 @@
         </section>
         <br>
 
+        <div class = "container">
+            <button onclick = "calcularRecompensa()">
+                Calcular Recompensa
+            </button>
+        <script>    
+
+            function calcularRecompensa() {
+                let luffy = 300000;
+                let zoro = 111100;
+                let total = luffy + zoro;
+                alert("La recompensa total es: " + total);
+                console.log(total);
+            }
+        </script>
+        </div>
+
         <!-- FRUTAS DEL DIABLO -->
 
         <section>
@@ -385,7 +413,7 @@
                     Cada fruta del diablo otorga un poder especial a quien la come: desde los poderes más simples, como estirarse como la goma, hasta poderes capaces de causar destrucción a gran escala, como la creación de terremotos. Cada fruta del diablo es única y no hay otra igual. Estas frutas se agrupan en tres clases: zoan, logia y paramecia.
                 </p>
                 <br>
-                <img src="https://i.pinimg.com/1200x/e3/83/b3/e383b36ccdeba1023a7e4edec4f97d52.jpg"
+                <img src="https://i.pinimg.com/1200x/e3/83/b3/e383b36ccdeba1023a7e4edec4f97d52.jpg" class="img-fluid" max-width="70%"
                 alt="Frutas del Diablo" >
             </div>
         </section>      
